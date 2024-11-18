@@ -9,5 +9,14 @@ public class Rectangle {
         this.width = (width < 0) ? 0 : width;
     }
 
-    public
+    public double getWidth() {
+        return this.width;
+    }
+
+    public double getLength() {
+        return this.length;
+    }
+    public double getArea() {
+        return this.length * this.width;
+    }
 }

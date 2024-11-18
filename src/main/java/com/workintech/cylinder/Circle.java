@@ -12,7 +12,7 @@ public class Circle {
 
     // Getter for radius
     public double getRadius() {
-        return radius;
+        return this.radius;
     }
 
     // Calculate area of circle
